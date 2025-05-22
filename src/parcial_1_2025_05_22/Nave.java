@@ -9,6 +9,7 @@ public abstract class Nave {
     protected String nombre;
     protected int capacidadTripulacion;
     protected int anioLanzamiento;
+    protected String tipoNave;
 
     public Nave(String nombre, int capacidadTripulacion, int anioLanzamiento) {
         this.nombre = nombre;
@@ -20,9 +21,17 @@ public abstract class Nave {
         System.out.println("Iniciando exploración");
     }
     
-    public void mostrar(){
-        System.out.println("Nombre: " + nombre + " Capacidad de tripulación: " + capacidadTripulacion 
+    public void mostrarNaves(){
+        System.out.println("Tipo de nave: " + tipoNave + "Nombre: " + nombre + " Capacidad de tripulación: " + capacidadTripulacion 
                 + " Año de lanzamiento: " + anioLanzamiento);
+    }
+
+    public String getTipoNave() {
+        return tipoNave;
+    }
+
+    public void setTipoNave(String tipoNave) {
+        this.tipoNave = tipoNave;
     }
     
     

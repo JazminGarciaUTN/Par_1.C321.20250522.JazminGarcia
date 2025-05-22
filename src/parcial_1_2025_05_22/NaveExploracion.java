@@ -18,6 +18,9 @@ public class NaveExploracion extends Nave{
         System.out.println("...Nave iniciando Exploración... ");
     }
     
-    
+    @Override
+    public void mostrarNaves(){
+        System.out.println();
+    }
     
 }
