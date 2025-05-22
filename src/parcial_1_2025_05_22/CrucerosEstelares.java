@@ -26,4 +26,10 @@ public class CrucerosEstelares extends Nave {
         System.out.println("--- LOS CRUCEROS ESTELARES NO PUEDEN REALIZAR EXPLORACIÓN ---");
     }
     
+    @Override
+    public void mostrarNaves(){
+        System.out.println(" Nombre: " + nombre + " Capacidad de tripulación: " + capacidadTripulacion 
+                + " Año de lanzamiento: " + anioLanzamiento + " Cantidad de pasajeros: " + cantidadPasajeros); 
+    }
+    
 }

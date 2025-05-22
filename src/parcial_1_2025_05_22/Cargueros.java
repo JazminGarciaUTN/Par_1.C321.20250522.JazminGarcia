@@ -34,5 +34,9 @@ public class Cargueros extends Nave {
         System.out.println("...Carguero iniciando exploracion... ");
     }
     
-    
+    @Override
+    public void mostrarNaves(){
+        System.out.println(" Nombre: " + nombre + " Capacidad de carga: " + capacidadCarga 
+                + " Capacidad de tripulación: " + capacidadTripulacion + " Año de Lanzamiento: " + anioLanzamiento);
+    }
 }

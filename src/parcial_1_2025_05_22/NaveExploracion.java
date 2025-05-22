@@ -20,7 +20,8 @@ public class NaveExploracion extends Nave{
     
     @Override
     public void mostrarNaves(){
-        System.out.println();
+        System.out.println("Nombre: " + nombre + " Capacidad de Tripulación: " + capacidadTripulacion + 
+                " Año de lanzamiento: " + anioLanzamiento );
     }
     
 }
